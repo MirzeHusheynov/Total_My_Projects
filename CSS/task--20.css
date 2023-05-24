@@ -1,0 +1,36 @@
+.header{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    height: 78px;
+    width: 78px;
+    background-color: gray;
+    color: wheat;
+    margin-left: 2%;
+    margin-top: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.navbar_item{
+    margin: 20px;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+}

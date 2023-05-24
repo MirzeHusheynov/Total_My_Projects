@@ -1,0 +1,50 @@
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10%;
+}
+.div{
+    width: 250px;
+    height: 350px;
+    border: 1px solid #ccc;
+    display: flex;
+    border-radius: 20px;
+    background-color: cornsilk;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1px;
+    font-family: sans-serif;
+}
+.ul{
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+}
+.button{
+    background-color: orange;
+    color: #fff;
+    border-radius: 20px ;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 17%;
+
+}
+

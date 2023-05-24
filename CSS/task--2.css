@@ -1,0 +1,12 @@
+div{width: 250px;
+   min-height: 250px;
+    background-color: yellow;
+    box-sizing: border-box;
+    padding-top: 2px;
+    margin-left: 50px;
+    margin-top:25px ;
+    padding-bottom: 4px;
+    outline:solid blue;
+    border: solid 2px black;
+    outline-style: dashed;
+}

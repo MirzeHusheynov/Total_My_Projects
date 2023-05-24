@@ -1,0 +1,30 @@
+.card_main{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width:250px ;
+    height: 280px;
+    background-color: blue;
+    padding: 20px 15px;
+    margin-top: 5%;
+}
+.card_inline{
+    width: 220px;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: rgb(208, 189, 189);
+}
+.card_text{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+.card_text_p{
+    margin-top: 15px;
+    text-align: center;
+}
