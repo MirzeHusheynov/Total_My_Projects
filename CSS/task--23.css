@@ -1,0 +1,202 @@
+
+
+/* FrontEnd,BackEnd,FullStack olan hisse */
+.main{
+    display: flex;
+    margin: 70px 70px;
+    justify-content: space-between;
+}
+.main1 p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.main .main1:nth-child(1){
+    width: 30%;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+}
+.main .main1:nth-child(2){
+    width: 30%;
+    height: 50px;
+    background-color: blue;
+text-align: center;
+}
+.main .main1:nth-child(3){
+    width: 30%;
+    height: 50px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+.hover:hover .main2-1{
+    display: block;
+}
+.hover:hover .main2-2{
+    display: block;
+}
+.hover:hover .main2-3{
+    display: block;
+}
+.hover{
+    height: 100px;
+}
+
+/* FrontEnd,BackEnd,FullStack olan hisse sonlandi */
+
+
+
+
+/* front end alt yazilari baslangic */
+.main2-1 li:hover{
+    color: #fff;
+}
+.main2-1 li:nth-child(1){
+    background-color: red;
+    height: 50px;
+}
+.main2-1 li:nth-child(2){
+    background-color: yellow;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.main2-1 li:nth-child(3){
+    background-color: olivedrab;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.main2-1 li:nth-child(4){
+    background-color: yellowgreen;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.main2-1 li:nth-child(5){
+    background-color: teal;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.main2-1{
+    margin-top:45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 700;
+    display: none;
+}
+/* front end alt yazilari sonlandi */
+
+
+
+
+
+
+/* back end alt yazilar baslangic */
+.main2-2 li:hover{
+    color: #fff;
+}
+.main2-2 li:nth-child(1){
+    background-color: red;
+    height: 50px;
+}
+.main2-2 li:nth-child(2){
+    background-color: yellow;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-2 li:nth-child(3){
+    background-color: olivedrab;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-2 li:nth-child(4){
+    background-color: yellowgreen;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-2 li:nth-child(5){
+    background-color: teal;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-2{
+    margin-top:45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 700;
+    display: none;
+}
+/* back end alt yazilar sonlandi */
+
+
+/* full stack alt yazilari baslandi */
+.main2-3 li:hover{
+    color: #fff;
+}
+
+.main2-3 li:nth-child(1){
+    background-color: red;
+    height: 50px;
+
+}
+.main2-3 li:nth-child(2){
+    background-color: yellow;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-3 li:nth-child(3){
+    background-color: olivedrab;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-3 li:nth-child(4){
+    background-color: yellowgreen;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-3 li:nth-child(5){
+    background-color: teal;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-3 li:nth-child(6){
+    background-color: yellowgreen;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-3 li:nth-child(7){
+    background-color: olive;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-3 li:nth-child(8){
+    background-color: blueviolet;
+    height: 50px;
+    margin-top: 10px;
+}
+.main2-3{
+    margin-top:45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 700;
+    display: none;
+}
+/* full stack alt yazilari sonlandi */
+
+
+
+
+
