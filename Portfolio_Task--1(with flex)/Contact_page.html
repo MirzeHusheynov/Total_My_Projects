@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task</title>
     <link rel="stylesheet" href="../CSS/reset.css" />
-    <link rel="stylesheet" href="./Css/About_page.css" />
+    <link rel="stylesheet" href="./Css/Contact_page.css" />
   </head>
   <body>
     <header class="header">
@@ -19,23 +19,27 @@
     </header>
     <main class="main">
       <section class="section_left">
-        <h2>About Me</h2>
-        <div class="section_left_img-and_p">
-          <img src="./Images/cat.jpg" alt="Cat Photo" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-            sapiente qui sequi sed voluptate vel voluptatibus tempora possimus
-            porro excepturi! Nostrum inventore voluptatum dolorum repellendus
-            neque aliquid assumenda soluta id?
-          </p>
-          <br />
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            exercitationem commodi quis, consequuntur ab, illo ratione sed eum
-            voluptatum reiciendis esse voluptatem eius assumenda autem quos id
-            cumque sint similique?
-          </p>
+        <h2>Contact</h2>
+        <div>
+          <form class="section_left_form">
+            <label for="name" class="label">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="input"
+              placeholder="John Smith"
+            />
+            <label for="email" class="label">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="input"
+              placeholder="example@gmail.com"
+            />
+            <label for="mesaj" class="label">Message</label>
+            <textarea name="message" id="mesaj"></textarea>
+            <button class="button">Submit</button>
+          </form>
         </div>
       </section>
       <section class="section_right">
