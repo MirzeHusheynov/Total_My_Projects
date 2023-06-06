@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100&display=swap');
+
+:root{
+    /* fonts */
+    --fontOpenSans:'Open Sans', sans-serif;
+    --fontRoboto:'Roboto', sans-serif;
+
+
+    /* colors */
+    --colorsMain: #303031;
+    --colorsGray:#66645E;
+    --colorsGreen:#71A894;
+    
+}

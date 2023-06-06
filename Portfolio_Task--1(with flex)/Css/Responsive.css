@@ -1,0 +1,56 @@
+@media only screen and (max-width: 800px) and (min-width: 375px)  {
+.navbar{
+    display: none;
+}
+    .btn{
+        color: black;
+        width: 10px;
+        height: 10px;
+        
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+    .header_name{
+        /* background-color: yellow; */
+        font-size: 24px;
+        width: 120px;
+        position: sticky;
+        top: 0;
+
+    }
+    .footer{
+        width: 535px;
+        margin-top: 40px;
+
+    }
+    .section_left{
+        /* display: flex; */
+        /* justify-content: center; */
+        width: 300px;
+        margin-left: -50px;
+    }
+    .section_left_img-and_p{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .section_right{
+        width: 50%;
+        margin-left: -90px;
+    }
+    .section_right img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+}

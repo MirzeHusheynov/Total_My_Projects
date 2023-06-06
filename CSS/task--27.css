@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main div{
+    background-color: burlywood;
+    width: 200px;
+    height: 230px;
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+

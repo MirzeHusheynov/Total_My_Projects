@@ -1,0 +1,78 @@
+@media screen and (min-width:375px) and (max-width:710px)  {
+
+    .logo_and_title h1{
+        visibility: hidden;
+    }
+    .navbar{
+        display: none;
+    }
+.menu_bar{
+    display: block;
+    width: 37.06px;
+    margin-right: 31px;
+}
+
+.section_1_1 h2{
+font-size: 50px;
+line-height: 60px;
+margin-top: -130px;
+text-align: center;
+
+}
+.section_1_1 p{
+    font-size: 18px;
+    text-align: center;
+}
+.section_1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.section_1_2 img{
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 325px;
+    height: 164px;
+}
+.section_3,.section_4,.section_5,.section_6,.section_7,.footer{
+    display: none;
+}
+.main_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main_card_1{
+    width: 319px;
+    height: 287px;
+    margin-bottom: 140px;
+    background-color: yellow;
+
+}
+.section_1_1 button{
+ margin-left: 60px;
+}
+.main_card_1 p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--fontRoboto);
+    margin-top: 24px;
+}
+.main_card_1 p:nth-child(3) {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--fontRoboto);
+    line-height: 26px;
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: yellow;
+}
+.main_card_1 img{
+    margin-top: 29px;
+}
+
+
+    
+}
