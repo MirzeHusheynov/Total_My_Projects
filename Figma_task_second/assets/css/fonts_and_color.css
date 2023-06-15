@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+
+:root{
+    /* colors */
+    --colorBlue: rgba(16, 144, 203, 1);
+    --colorBlack01:rgba(0, 0, 0, 1);
+    --colorBlack37:rgba(37, 37, 37, 1);
+    --colorGray84:rgba(84, 84, 84, 1);
+    --colorGray92:rgba(92, 92, 92, 1);
+    --colorGray134:rgba(134, 134, 134, 1);
+    --colorGray120:rgba(120, 120, 120, 1);
+    --colorGray104:rgba(104, 104, 104, 1);
+    --colorGray150:rgba(150, 150, 150, 1);
+    --colorGray134: rgba(134, 134, 134, 1);
+    --colorGray81:rgba(81, 81, 81, 1);
+
+    /* colors */
+
+
+    /* fonts */
+    --fontPoppins:'Poppins';
+}

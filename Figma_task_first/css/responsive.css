@@ -27,11 +27,16 @@ text-align: center;
     display: flex;
     flex-direction: column-reverse;
 }
+.section_1_2{
+    display: flex;
+    justify-content: center;
+}
 .section_1_2 img{
     margin-left: 18px;
     margin-right: 18px;
-    width: 325px;
-    height: 164px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
 }
 .section_3,.section_4,.section_5,.section_6,.section_7,.footer{
     display: none;
@@ -44,9 +49,9 @@ text-align: center;
 }
 
 .main_card_1{
-    width: 319px;
-    height: 287px;
-    margin-bottom: 140px;
+    /* width: 100vw; */
+    margin-top: 0;
+
 
 }
 .section_1_1 button{
@@ -69,6 +74,7 @@ text-align: center;
 }
 .main_card_1 img{
     margin-top: 29px;
+    /* width: 100vw !important ; */
 }
 
 
