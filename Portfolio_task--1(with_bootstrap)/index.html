@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="../BootsTrap5 kitabxana/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <style>
+        header{
+            border-bottom: 1px solid rgb(176, 147, 147);
+            background-color: #fff;
+        }
+        .header_ul li:not(:first-child){
+            border-left: 1px solid black;
+        }
+        .cat{
+            width: 200px;
+            height: 150px;
+        }
+        .about_me{
+            border-bottom: 4px solid gray;
+            margin-left: 5%;
+            width: 90%;
+        }
+        .yourname{
+            margin-left: 10.7%;
+        }
+    </style>
+</head>
+<body>
+    <header class="d-flex justify-content-between sticky-top ">
+        <div class="bg-secondary p-3 yourname mt-4 ">
+            <p class="text-light h1">Your Name</p>
+        </div>
+        <ul class="d-flex align-items-center mx-5 mt-2 header_ul">
+            <li><a href="./index.html" class="h4 mx-4 text-secondary" >About</a> </li>
+            <li><a href="./assets/html/portfolio.html"class="h4 mx-4 text-secondary">Portfolio</a></li>
+            <li><a href="./assets/html/contact.html"class="h4 mx-4 text-secondary">Contact</a> </li>
+        </ul>
+    </header>
+
+    <main class="d-flex justify-content-center gap-5">
+        <div class="w-50 border border-1 mt-5 ">
+            <p class="h1 text-secondary mt-5 about_me ">About Me</p>
+            <div style="width: 90%;margin-left: 5%;">
+                <img src="./assets/img/cat.jpg" alt="" class="cat float-start p-1">
+                <p class="text-secondary h4 mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sapiente qui sequi sed voluptate vel voluptatibus tempora possimus porro excepturi! Nostrum inventore voluptatum dolorum repellendus neque aliquid assumenda soluta id?</p>
+           
+                <p class="text-secondary h4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe exercitationem commodi quis, consequuntur ab, illo ratione sed eum voluptatum reiciendis esse voluptatem eius assumenda autem quos id cumque sint similique?</p>
+            </div>
+        </div>
+        <div class="w-25 border border-1 mt-5 d-flex flex-column align-items-center" style="height: 220px;">
+            <p class="h3 text-secondary mt-4">Connect With Me</p>
+            <div style="width: 199px; border: 1px solid gray;"></div>
+            <div class="d-flex justify-content-center align-items-center gap-2 mt-5">
+                <img src="./assets/img/github_logo.png" alt=""style="width: 62px;height: 62px;">
+                <img src="./assets/img/linkedin_logo.png" alt=""style="width: 62px;height: 62px;">
+                <img src="./assets/img/logo.png" alt="" style="width: 62px;height: 62px;">
+            </div>
+        </div>
+    </main>
+    <footer class="bg-secondary d-flex justify-content-center align-items-center mt-5" style="height: 113px;border-top: 8px solid rgb(185, 152, 152);">
+        <p class="h3 text-light">Muellif Huquqlari Gorunur</p>
+    </footer>
+    
+</body>
+</html>
