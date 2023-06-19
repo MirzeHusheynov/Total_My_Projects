@@ -578,6 +578,7 @@
   margin-top: 82px;
   margin-left: 100px;
   margin-right: 100px;
+  gap: 20px;
 
 }
 .footer_icons{
@@ -632,6 +633,9 @@ font-weight: 400;
 line-height: 30px;
 color: var(--colorGray81);
 }
+.footer_section_2-3{
+  margin-left: 50px;
+}
 
 .footer_section_2-3 p:nth-child(1){
   font-family: var(--fontPoppins);
@@ -652,8 +656,30 @@ color: var(--colorGray81);
   font-weight: 400;
   line-height: 50px;
   color: var(--colorGray81);
+  margin-top: 30px;
 }
 
+.footer_icons_parrent{
+  margin-top: 70px;
+}
+.footer_main{
+  display: flex;
+  
+}
+.copyright{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.8px solid rgba(210, 210, 210, 1);
+  margin-top: 20px;
+  font-family: var(--fontPoppins);
+font-size: 13px;
+font-weight: 400;
+color: var(--colorGray104);
+
+
+}
 
 
 
