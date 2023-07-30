@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(151, 151, 163);
+}
+.main{
+    background-color: #fff;
+    width: 20%;
+    margin: auto auto;
+    margin-top: 150px;
+
+}
+.h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+.textInput{
+    width: 70%;
+    height: 30px;
+    /* text-align: center; */
+    margin-left:30px;
+}
+.textInput::placeholder{
+    text-align: center;
+}
+.addClass{
+    background-color: blue;
+    display: inline;
+    margin-left: 10px;
+    padding: 5px;
+    color: wheat;
+    cursor: pointer;
+}
+.clearAll{
+    margin-left: 73%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.paragraf{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+}
