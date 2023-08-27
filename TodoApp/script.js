@@ -2,7 +2,6 @@ let textInput = document.querySelector("#textInput"),
 addText = document.querySelector("#addText"),
 clearAll = document.querySelector("#clearAll"),
 addParagraph = document.querySelector("#addParagraph");
-
 addText.addEventListener('click',function(){
     let paragraf = document.createElement("p")
     addParagraph.appendChild(paragraf);
@@ -19,4 +18,5 @@ addText.addEventListener('click',function(){
     paragraf.addEventListener('dblclick',function(){
         addParagraph.removeChild(paragraf)
     })
+    textInput.addEventListener('keydown',)
 })

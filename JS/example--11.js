@@ -22,3 +22,24 @@
 // // console.log(Arr(arr));
 
 
+
+// function repeatStr (n, s) {
+//     let a = "";
+//     for(let i = 0;i < n;i++){
+//         a += s
+//     }
+  
+//     return a;
+//   }
+//   console.log(repeatStr(5,"abc"));
+
+
+
+            // cunstructor
+// function register(name,surname,age){
+//     this.name = name
+//     this.surname = surname
+//     this.age = age
+// }
+// const user1 = new register("Mirze","Huseynov",20)
+// console.log(user1);

@@ -148,6 +148,63 @@
 
 
 
+// function reverse(str){
+//     let arr = []
+//     for(let i = str.length - 1; i >=0;i--){
+//         arr.push(str[i])
+//     }
+//     let reverseStr = arr.join("");
+//     if(reverseStr.toLocaleLowerCase() === str.toLocaleLowerCase()){
+//         return true
+//     }
+//     return false
+// } 
+// console.log(reverse("babo"));
+
+
+
+// function reverse(str){
+//     let arr = str.split("");
+//     let reverseArr = arr.reverse();
+//     let reverseStr = reverseArr.join("");
+//     if(reverseStr.toLowerCase() === str.toLowerCase()){
+//         return true
+//     }
+//     return false
+
+// }
+// console.log(reverse("salam"));
+
+
+//* chat gpt kodu
+// const rakamDizisi = [5, 12, 34, 1, 8, 25, 3];
+// let maxRakam = rakamDizisi[0];
+// let minRakam = rakamDizisi[0];
+
+// for (let i = 1; i < rakamDizisi.length; i++) {
+//     if (rakamDizisi[i] > maxRakam) {
+//         maxRakam = rakamDizisi[i];
+//     }                                                 
+//     if (rakamDizisi[i] < minRakam) {
+//         minRakam = rakamDizisi[i];
+//     }
+// }
+// console.log(" rakam:", maxRakam);
+// console.log(" rakam:", minRakam);
+// * chat gpt kodu
+
+
+
+
+// let arrMir = [1,5,4,87,9,]
+// const arr2 = [2,5,4,878,48,784,8,744,4848,4,84,848,7,7]
+// function randomGenerator(array){
+//     let randomIndex = Math.floor(Math.random() * array.length)
+//     return array[randomIndex]
+// }
+// console.log(randomGenerator(arr2));
+
+
 
 
 

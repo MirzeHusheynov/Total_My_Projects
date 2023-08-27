@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tas Kagit Makas</title>
+    <style>
+        form{
+            display: none;
+        }
+        .btn button:nth-child(1):hover{
+            background-color: black;
+            color: yellow;
+            cursor: pointer;
+        }
+        .btn button:nth-child(2):hover{
+            background-color: black;
+            color: yellow;
+            cursor: pointer;
+        }
+        .btn button:nth-child(3):hover{
+            background-color: black;
+            color: yellow;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <main style="display: flex; flex-direction: column; align-items: center;" id="mainDiv">
+        <div style="width: 100%; display: flex; justify-content: space-around;">
+            <p id="oyuncuP" style="font-size: 40px;">Player</p>
+            <img src="data:image/jpeg;base64,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" style="width: 200px;height: 200px;" alt="" id="playerPhoto">
+            <img src="data:image/jpeg;base64,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" style="width: 200px;height: 200px;" alt="" id="computerPhoto">
+            <p id="computer" style="font-size: 40px;">Computer</p>
+        </div>
+        <div style="width: 100%; display: flex; justify-content: space-evenly;">
+            <p id="oyuncuScor" style="font-size: 40px; ">Score: 0</p>
+            <p id="computerScor" style="font-size: 40px; margin-left: -60px;">Score: 0</p>
+        </div>
+
+        <div style="margin-top: -40px;">
+            <div style="width: 200px;margin-left: 100px;border: 1px solid black; height: 50px;margin-top: -40px; font-size: 25px;text-align: center;" id="table"></div>
+            <h1 style="text-align: center;">Choose an option</h1>
+            <div style="display: flex; gap: 80px;">
+                <img id="playerSecimi"  src="https://img.freepik.com/premium-vector/red-start-3d-design-icon_41084-302.jpg?w=2000" alt="" style="border: 1px solid black;width: 150px;" id="oyuncuPhoto">
+                <img  id="computerSecimi" src="https://st.depositphotos.com/1023102/1805/i/950/depositphotos_18053687-stock-photo-3d-word-game-on-white.jpg" alt="" style="border: 1px solid black; width: 150px;" id="compPhoto">
+            </div>
+            <div class="btn" style="display: flex; justify-content: space-between; margin-top: 30px;">
+             <button id="yumruqBtn" style="padding: 20px;width: 100px;font-size: 18px;border-radius: 50%;">Yumruq</button>
+             <button id="elBtn" style="padding: 20px;width: 100px;font-size: 18px;border-radius: 25px;">Əl</button>
+             <button class="barmaqBtn" id="barmaqBtn" style="padding: 20px; width: 100px;font-size: 18px;border-radius: 15px;">Barmaq</button>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
